@@ -7,7 +7,7 @@ module.exports = {
   isLoggedIn,
 }
 
-function isLoggedIn(req, res next) {
+function isLoggedIn(req, res, next) {
   const token = req.headers.authorization;
 
   if (token) {
