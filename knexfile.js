@@ -15,7 +15,7 @@ module.exports = {
       conn.run("PRAGMA foreign_keys = ON", done);
     },
   },
-    migrations: {
+  migrations: {
       directory: "./data/migrations",
   },
   seeds: {
